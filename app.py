@@ -5,12 +5,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import datetime
 from google.cloud import bigquery
-from dotenv import load_dotenv
 
 # =============================
 # LOAD ENV
 # =============================
-load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 PROJECT_ID = os.getenv("PROJECT_ID")
