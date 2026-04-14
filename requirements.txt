@@ -8,6 +8,7 @@ numpy==2.4.4
 packaging==26.0
 pandas==2.3.3
 pluggy==1.6.0
+pyarrow
 pytest==7.4.4
 pytest-cov==4.1.0
 python-dotenv
@@ -22,3 +23,4 @@ urllib3==2.6.3
 google-cloud-bigquery
 flask
 gunicorn
+openpyxl
